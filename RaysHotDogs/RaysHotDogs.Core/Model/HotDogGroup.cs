@@ -30,4 +30,4 @@ namespace RaysHotDogs.Core.Model
 
     }
 }
-}
+

@@ -76,8 +76,50 @@ namespace RaysHotDogs.Core.Repository
         }
       }; //hot dog group 2
 
+    public List<HotDog> GetAllHotDogs()
+        {
+            IEnumerable<HotDog> hotDogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
 
+                select hotDog;
+            return hotDogs.ToList<HotDog>();
+        }
+   public HotDog GetHotDogById(int hotDogId)
+        {
+            IEnumerable<HotDog> hotDogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
+                where hotDog.HotDogId == hotDogId
+                select hotDog;
 
+                return hotDogs.FirstOrDefault();
+        }
+
+    public List<HotDogGroup> GetGroupedHotDogs()
+        {
+            return hotDogGroups;
+        }
+    public List<HotDog> GetHotDogsForGroup(int hotDogGroupId)
+        {
+            var group = hotDogGroups.Where(h => h.HotDogGroupId == hotDogGroupId).FirstOrDefault();
+
+            if(group != null)
+            {
+                return group.HotDogs;
+            }
+
+            return null;
+        }
+    public List<HotDog> GetFavoriteHotDogs()
+        {
+            IEnumerable<HotDog> hotdogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
+                where hotDog.IsFavorite
+                select hotDog;
+            return hotdogs.ToList<HotDog>();
+        }
 
     }//end HotDogRepositoryClass
 
