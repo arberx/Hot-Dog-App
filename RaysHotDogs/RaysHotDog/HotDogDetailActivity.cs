@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
-using RaysHotDogs.Utility;
+using RaysHotDog;
 
 namespace RaysHotDogs
 {
@@ -35,7 +35,7 @@ namespace RaysHotDogs
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-
+            
             SetContentView(Resource.Layout.HotDogDetailView);
 
             HotDogDataService dataService = new HotDogDataService();
