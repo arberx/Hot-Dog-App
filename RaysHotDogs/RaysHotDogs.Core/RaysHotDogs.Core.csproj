@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF619E46-2F67-4F0B-882D-E0A6D780D789}</ProjectGuid>
+    <ProjectGuid>{E45E9681-9749-490A-8CA2-43CFE5F37C3E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RaysHotDogs.Core</RootNamespace>

@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
-using RaysHotDog;
+using RaysHotDogs.Utility;
 
 namespace RaysHotDogs
 {

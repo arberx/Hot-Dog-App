@@ -8,59 +8,71 @@ namespace RaysHotDogs.Core.Model
 {
     public class HotDog
     {
-        public int HotDogId {
+        public int HotDogId
+        {
             get;
             set;
         }
 
-        public string Name {
+        public string Name
+        {
             get;
             set;
         }
 
-        public string ShortDescription {
+        public string ShortDescription
+        {
             get;
             set;
         }
 
-        public string Description {
+        public string Description
+        {
             get;
             set;
         }
 
-        public string ImagePath {
+        public string ImagePath
+        {
             get;
             set;
         }
 
-        public int Price {
+        public int Price
+        {
             get;
             set;
         }
 
-        public bool Avaliable {
+        public bool Available
+        {
             get;
             set;
         }
 
-        public int PrepTime {
+        public int PrepTime
+        {
             get;
             set;
         }
 
-        public List<string> Ingredients {
+        public List<string> Ingredients
+        {
             get;
             set;
         }
 
-        public bool IsFavorite {
+        public bool IsFavorite
+        {
             get;
             set;
         }
 
-        public string GroupName {
+        public string GroupName
+        {
             get;
             set;
         }
-    }//end hotDog class
+
+    }
 }
