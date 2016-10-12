@@ -16,10 +16,12 @@ namespace RaysHotDogs.Utility
 {
     public class ImageHelper
     {
+        //use Bitmap to get the data from a url
         public static Bitmap GetImageBitmapFromUrl(string url)
         {
             Bitmap imageBitmap = null;
 
+            //since we're getting the data from a webclient, we need to download the url
             using (var webClient = new WebClient())
             {
                 var imageBytes = webClient.DownloadData(url);
@@ -28,7 +30,7 @@ namespace RaysHotDogs.Utility
                     imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
                 }
             }
-
+            //decode the image to a bitmap that w're returning
             return imageBitmap;
         }
     }

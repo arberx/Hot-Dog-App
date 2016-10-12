@@ -27,6 +27,7 @@ namespace RaysHotDogs
         private Button cancelButton;
         private Button orderButton;
 
+        //use one hotdog, and the hotdog data service
         private HotDog selectedHotDog;
         private HotDogDataService dataService;
 
@@ -36,7 +37,7 @@ namespace RaysHotDogs
 
             // Create your application here
             SetContentView(Resource.Layout.HotDogDetailView);
-
+            
             HotDogDataService dataService = new HotDogDataService();
             selectedHotDog = dataService.GetHotDogById(1);
 
@@ -66,6 +67,7 @@ namespace RaysHotDogs
             descriptionTextView.Text = selectedHotDog.Description;
             priceTextView.Text = "Price: " + selectedHotDog.Price;
 
+            //here we use the image helper, to get teh image
             var imageBitmap = ImageHelper.GetImageBitmapFromUrl("http://gillcleerenpluralsight.blob.core.windows.net/files/" + selectedHotDog.ImagePath + ".jpg");
 
             hotDogImageView.SetImageBitmap(imageBitmap);
