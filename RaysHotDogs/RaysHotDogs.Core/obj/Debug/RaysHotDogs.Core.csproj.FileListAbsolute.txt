@@ -1,4 +1,0 @@
-C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll
-C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.pdb
-C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll
-C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.pdb
