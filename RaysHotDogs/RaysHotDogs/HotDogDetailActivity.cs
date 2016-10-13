@@ -84,6 +84,7 @@ namespace RaysHotDogs
             //TODO
         }
 
+        //create an event, whent the order button is clicked, use delgate to print out a message
         private void OrderButton_Click(object sender, EventArgs e)
         {
             var amount = Int32.Parse(amountEditText.Text);
