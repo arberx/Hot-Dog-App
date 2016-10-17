@@ -9,6 +9,7 @@ C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHot
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.pdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\android\bin\RaysHotDogs.RaysHotDogs.apk
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogdetailview.xml
+C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\main.xml
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\values\strings.xml
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\icon.png
@@ -40,6 +41,5 @@ C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHot
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb

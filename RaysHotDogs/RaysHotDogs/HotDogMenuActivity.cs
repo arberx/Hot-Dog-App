@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
+using RaysHotDogs.Adapters;
 
 namespace RaysHotDogs
 {
@@ -19,13 +20,11 @@ namespace RaysHotDogs
     {
         //create the name of our list view
         private ListView hotDogListView;
-
         //list of Hotdogs, "all hotdogs"
         private List<HotDog> allHotDogs;
-
         //data service, to get all avaliable hotdogs
         private HotDogDataService hotDogDataService;
-
+  
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -41,6 +40,12 @@ namespace RaysHotDogs
 
             //get all htodogs
             allHotDogs = hotDogDataService.GetAllHotDogs();
+
+            //hotdog menu adapter
+            //pass in current activity(this) and all hotdogs list
+            hotDogListView.Adapter = new HotDogListAdapter(this,allHotDogs);
+
+            hotDogListView.FastScrollEnabled = true;
 
         }
     }

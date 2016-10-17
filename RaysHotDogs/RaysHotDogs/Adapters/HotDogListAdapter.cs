@@ -18,6 +18,18 @@ namespace RaysHotDogs.Adapters
         List<HotDog> items;
         Activity context;
 
+        public override int Count {
+            get {
+                return items.Count;
+            }
+        }
+
+        public override HotDog this[int position] {
+            get {
+                return items[position];
+            }
+        }
+
         //constructor
         public HotDogListAdapter(Activity context, List<HotDog>items):base()
         {
@@ -28,6 +40,22 @@ namespace RaysHotDogs.Adapters
         public override long GetItemId(int position)
         {
             return position;
+        }
+
+        public override View GetView(int position, View convertView, ViewGroup parent)
+        {
+            var item = items[position];
+
+            //use recycled view if in graveyard which is passed in with convertView. 
+            //Otherwise, create new view. 
+            if (convertView == null)
+            {
+                convertView =
+                    context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1,null);
+            }
+
+            convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.Name;
+            return convertView;
         }
 
         //indexor
