@@ -15,6 +15,7 @@ C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHot
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\icon.png
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\R.cs.flag
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\uploadflags.txt
+C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll.mdb
 C:\Users\arber\Documents\Visual Studio 2015\Projects\Xamarin\Hot-Dog-App\RaysHotDogs\RaysHotDogs\bin\Debug\Java.Interop.dll.mdb

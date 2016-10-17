@@ -30,7 +30,7 @@ namespace RaysHotDogs.Utility
                     imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
                 }
             }
-            //decode the image to a bitmap that w're returning
+            //decode the image to a bitmap that we're returning
             return imageBitmap;
         }
     }
