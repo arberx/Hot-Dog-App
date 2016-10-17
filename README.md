@@ -1,5 +1,5 @@
 # Hot-Dog-App
-Xamarin Hot Dog app:
+PLural Insight: Xamarin Hot Dog app:
 
 Intuitive app, that lays out a comprehensive outline of a typical restuarnts mobile app preferences. 
 
